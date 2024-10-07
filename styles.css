@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    background-color: black; /* Set the background color of the page to black */
+}
+
+.post {
+    width: 35%; /* Make the post div 35% of the screen width */
+    margin: 0 auto; /* Center the post div */
+    background-color: white; /* Set the background color of the post to white for contrast */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left-icon {
+    margin-right: 10px;
+}
+
+.header-left-icon img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.header-left-titlebox {
+}
+
+.header-left-titlebox-top {
+}
+
+.header-left-titlebox-bottom {
+}
+
+.header-right img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-div img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer {
+    margin-top: 10px; /* Add margin before the footer */
+    margin-bottom: 10px; /* Add margin after the footer */
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between footer-top and footer-middle */
+    padding: 10px; /* Add padding around the footer-top div */
+}
+
+.footer-top-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-top-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-middle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between footer-middle and footer-bottom */
+    white-space: nowrap; /* Prevent text from wrapping */
+    padding: 10px; /* Add padding around the footer-middle div */
+}
+
+.footer-middle > div {
+    margin-right: 5px; /* Optional: Add space between the divs */
+}
+
+.footer-bottom {
+    padding: 10px; /* Add padding around the footer-bottom div */
+}
+
+.footer img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Space between icons */
+}
